@@ -4,7 +4,8 @@
   "description": "Enforces constraints on and validates your javascript data",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "scripts/test",
+    "build": "scripts/build"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,14 @@
   "bugs": {
     "url": "https://github.com/Kvoti/data-schema/issues"
   },
-  "homepage": "https://github.com/Kvoti/data-schema#readme"
+  "homepage": "https://github.com/Kvoti/data-schema#readme",
+  "devDependencies": {
+    "babel": "^5.5.8",
+    "expect": "^1.9.0",
+    "mocha": "^2.2.5",
+    "webpack": "^1.12.0"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1"
+  }
 }
