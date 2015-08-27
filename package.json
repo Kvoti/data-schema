@@ -1,0 +1,24 @@
+{
+  "name": "data-schema",
+  "version": "1.0.0",
+  "description": "Enforces constraints on and validates your javascript data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kvoti/data-schema.git"
+  },
+  "keywords": [
+    "schema",
+    "validation",
+    "constraint"
+  ],
+  "author": "Mark Allison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kvoti/data-schema/issues"
+  },
+  "homepage": "https://github.com/Kvoti/data-schema#readme"
+}
