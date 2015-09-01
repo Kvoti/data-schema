@@ -118,8 +118,8 @@ export class ArrayManager extends BaseCollectionManager {
   }
 
   _setIndex(i, v, Manager) {
-    if (this._options.getMemberManager) {
-      Manager = this._options.getMemberManager(v);
+    if (this._options.getMemberSchema) {
+      Manager = this._options.getMemberSchema(v);
     } else if (Manager === undefined) {
       Manager = this._MemberManager;
     }
